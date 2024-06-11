@@ -1,13 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fitness & Nutrition</title>
+<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <script src="./assets/js/script.js"></script>
+
+<header>
+    <h1>Fitness & Nutrition</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="main-content">
+    <h2>Placeholder 1</h2>
+    <p><This is a placeholder for fitness and nutrition information. Click the button below to learn more.></p>
+    <button id="openModalBtn1" onclick="getWorkout()">Open Modal</button>
+</section>
+
+<section class="main-content">
+    <h2>Placeholder 2</h2>
+    <p>This is another placeholder for fitness and nutrition information. Click the button below to learn more.</p>
+    <button id="openModalBtn2">Open Modal</button>
+</section>
+
+<section class="main-content">
+    <h2>Placeholder 3</h2>
+    <p>This is the third placeholder for fitness and nutrition information. Click the button below to learn more.</p>
+    <button id="openModalBtn3">Open Modal</button>
+</section>
+
+<div id="myModal1" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Modal Title 1</h2>
+        <p>This is the content of modal 1.</p>
+    </div>
+</div>
+
+<div id="myModal2" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Modal Title 2</h2>
+        <p>This is the content of modal 2.</p>
+    </div>
+</div>
+
+<div id="myModal3" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Modal Title 3</h2>
+        <p>This is the content of modal 3.</p>
+    </div>
+</div>
+
+<footer>
+    <p>2024 Fitness & Nutrition</p>
+</footer>
+
+<script src="./assets/js/script.js"></script> 
 </body>
 </html>
+
